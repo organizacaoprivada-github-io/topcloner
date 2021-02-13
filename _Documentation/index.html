@@ -1,0 +1,348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Sitemakin and Cloner</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css"
+          media="screen, projection">
+    <style type="text/css" media="screen">
+        p, table, hr, .box {
+            margin-bottom: 25px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script type="text/javascript" src="scripts/shCore.js"></script>
+    <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+    <link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+    <script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+
+<body>
+<div class="container">
+
+<h3 class="center alt">&ldquo;Sitemakin and Cloner&rdquo; Documentation by &ldquo;Kent Elchuk&rdquo; v1.5</h3>
+
+<hr>
+
+<h1 class="center">&ldquo;Sitemakin and Cloner&rdquo;</h1>
+
+<div class="borderTop">
+    <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top">
+            <strong>
+                Created: 01/12/2014<br>
+                By: Kent Elchuk<br>
+                Email: <a href="mailto:kent@lampload.com">kent@lampload.com</a>
+            </strong>
+        </p>
+    </div>
+    <!-- end div .span-6 -->
+
+    <div class="span-12 last">
+        <p class="prepend-top append-0">Thank you for purchasing Site Constructor and Cloner. If you have any
+            questions that are beyond the scope of this help file, please feel free to email via my user page
+            contact form <a href="http://themeforest.net/user/kelchuk">here</a>. Thanks so much!</p>
+    </div>
+</div>
+<!-- end div .borderTop -->
+
+<hr>
+
+<h2 id="toc" class="alt">Table of Contents</h2>
+<ol class="alpha">
+    <li><a href="#">Start</a></li>
+    <li><a href="#changelog">Changelog</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#customization">Customization</a></li>
+    <li><a href="#css">CSS Styling</a></li>
+    <li><a href="#raspberrypi">Raspberry Pi Specifics</a></li>
+    <li><a href="#httrack">Cloning Tips</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#credits">Credits</a></li>
+</ol>
+
+<hr>
+
+<h3 id="changelog"><strong>B) Changelog</strong> - <a href="#toc">top</a></h3>
+<p>v1.6 March 2 2017</p>
+
+<p>Changed some insert queries to abide by mysql 5.7 default settings for auto_increment values. Added some null fields to please strict mysql versions.
+<ul>
+<li>includes/sessions.inc.php near line 59</li>
+<li>add.php near line 59</li> 
+<li>add_ckc.php near line 59</li> 
+<li>add_file.php</li>
+</ul></p>
+
+<p>v1.5 November 2016</p>
+
+<p>Changed some DB tables to utf_unicode_ci</p>
+
+<p>v1.4 September 2015</p>
+
+<p>Added custom page session control in header_edit.php.</p>
+
+<p>v1.3 June 2015</p>
+
+<p>Modified installation folder for auto installation.</p>
+
+<p>v1.0 December 2014</p>
+
+<p>First release of Sitemakin and Cloner</p>
+
+<hr>
+
+<h3 id="overview"><strong>C) Overview</strong> - <a href="#toc">top</a></h3>
+
+<p>Convert any HTML template to a CMS in minutes!
+
+    <br/><br/><em>Fast enough to host anywhere....including your home!</em></p>
+
+<hr>
+
+<h3 id="usage"><strong>D) Usage</strong> - <a href="#toc">top</a></h3>
+
+<p>The simple setup takes only minutes!</p>
+<ol>
+    <li>Unzip the file.</li>
+    <li>Move the installation to the desired folder.</li>
+    <li>Setup a Database. The examples uses the name raspberry_blog, but, yours can be any name you want. After
+        that, dump the blogifie_constructor.sql file into the database. This can be imported into your database
+        within seconds using phpMyAdmin.
+    </li>
+	<li><strong>Option A: Easy Installation</strong>. Open the installation folder (ie) example.com/installation. Fill in the simple fields and Submit.</li>
+    <li><strong>Option B: Manual Installation</strong> Open public.inc.php and change the user and password for the raspberry_blog database. Or, open up the
+        installation folder. Remember to remove the installation folder whether you use it or not. At this point,
+        you can also rename htaccess.txt to .htaccess.
+    </li>
+</ol>
+<img src="assets/images/db-connect.png" alt="HTML Structure"/>
+<br/><br/>
+
+<p>Congratulations, you now have an up and running installation.</p>
+
+<p>All detailed videos for using the Sitemakin and Cloner can be found in the <a href="../help.php">help file</a>
+    located in the main menu. Internet and web server are required.</p>
+
+<p>Other topics include:<br/>
+<ul class="help-list-style">
+    <li><a href="../help.php#setup">Setup Files</a></li>
+    <li><a href="../help.php#create">Create, Edit, Delete a Page:<br/> Option A</a></li>
+    <li><a href="../help.php#video">Create, Edit, Delete a Page:<br/> Option B</a></li>
+    <li><a href="../help.php#sitemap">View Sitemap</a></li>
+    <li><a href="../help.php#clone">Clone Your Website</a></li>
+    <li><a href="../help.php#upload">Upload Images</a></li>
+    <li><a href="../help.php#comments">Manage Comments</a></li>
+    <li><a href="../help.php#sef">Manage SEF URLS</a></li>
+    <li><a href="../help.php#sitemap">View Sitemap</a></li>
+    <li><a href="../help.php#clone">Clone Your Website</a></li>
+    <li><a href="../help.php#zip">Zip Your Website</a></li>
+</ul>
+</p>
+
+<hr>
+
+<h3 id="customization"><strong>E) Customization</strong> - <a href="#toc">top</a></h3>
+
+<p>The template contains various css files located within the css folder. <br/><br/>
+    The CMS styling can be altered by changing the css file shown below.</p>
+
+<ul>
+    <li>css/style-everywhere.css</li>
+</ul>
+<p>The tutorial on the <a href="../help.php#blogify">help.php page</a> will show how you can manage your cms and
+    clone!</p>
+<hr>
+
+<h3 id="css"><strong>F) CSS Styling</strong> - <a href="#toc">top</a></h3>
+
+<p>The template contains various css files located within the css folder. <br/><br/>
+    Many alterations can be performed by changing the css file shown below.</p>
+
+<ul>
+    <li>css/style-everywhere.css</li>
+</ul>
+
+<hr>
+
+<h3 id="raspberrypi"><strong>G) Raspberry Pi Home Server</strong> - <a href="#toc">top</a></h3>
+
+<p>You may need to add the zip extension to Linux as shown below:<br/>
+<pre class="brush: js;">sudo pecl install zip</pre>
+2) Add <em>extension=zip.so</em> to php.ini likely located at: <em>/etc/php5/cgi/php.ini</em>. To open the file, you
+can type <em>sudo nano filename</em> where filename is the file name you want to open. <br/>
+3) Change folder permissions so you can write files.<br/>
+a) Add the user pi to the group www-data using one of the commands below:
+<pre class="brush: js;">sudo useradd -g www-data pi</pre>
+or
+<pre class="brush: js;">sudo usermod -a -G www-data  pi</pre>
+b) Can check if user belongs to group by using this command:
+<pre class="brush: js;">sudo check groups : id pi</pre>
+c) Change ownership for Sitemakin files.
+<pre class="brush: js;">sudo chown -R pi:www-data /var/www/sitemakin</pre>
+d) Let anyone in group have rewrite privilege.
+<pre class="brush: js;">sudo chmod -R g+rw /var/www/sitemakin</pre>
+
+</p>
+
+<hr>
+
+<h3 id="httrack"><strong>H) Cloning With HTTRACK</strong> - <a href="#toc">top</a></h3>
+
+<p>With Sitemakin and Cloner, it comes with its own tools to clone your website that you will make with this CMS.
+    <br/><br/>However, we added a supplemental cloning tool that enables you to clone other websites. For example,
+    you may want to clone an outdated Joomla 1.5 or Wordpress website to make static HTML files with all images and
+    Javascript so that you can re-theme it with a template from Themeforest and make it usable once again with that
+    modernized theme which likely loads much faster than the previous website installation.</p>
+
+<p>This method will use a Linux package called httrack. Although this tutorial is geared towards Debian based
+    servers, HTTRACK also installs quickly and simply on Centos and detailed info can be <a
+            href="http://samar.techgaun.com/2013/11/install-httrack-on-centos.html">found here.</a><br/><br/>
+    Below are a list of commands to install and use httrack with Debian based Linux operating systems like Raspbian
+    and Ubuntu.</p>
+<p id = "debian">
+    <h3>Debian Based Systems</h3>
+    1)
+<pre class="brush: js;">sudo apt-get update</pre>
+2)
+<pre class="brush: js;">sudo apt-get install zip</pre>
+3)
+<pre class="brush: js;">sudo apt-get install httrack</pre>
+4) Cloning Options:<br/>
+a) Command Line usage<br/>
+<pre class="brush: js;">sudo httrack http://example.com/  -O "/websites/example.com"  -%v -%e0 </pre>
+b) Using cloner.php<br/>
+i) You need to be able to use the shell_exec() PHP function. If you have shell access, you can enable it to use on a
+specified folder or remove it from a blacklist by editing the loaded php.ini file. With shared hosting, you can ask
+if they will enable it for you. If you cannot use your web hosting account, you can setup a LAMP server at home on
+another PC, using Linux installed in VirtualBox which is free, or connect a Raspberry Pi to your router. The $35-$50
+Raspberry Pi is the phenomenal micro PC designed for learning. It can even power websites hosted at home.<br/>
+ii) You must allow www-data to become a super user and allow it to use the packages without a password. So, open up
+that /etc/sudoers file and give Apache permission to use the desired service(s). For this example, we will use the
+services httrack and zip. The line is shown below.<br/>
+<em>www-data ALL=NOPASSWD: /usr/bin/httrack,/usr/bin/zip</em><br/>
+iii) Just add the url and submit. Site is zipped up and stored in /home/pi folder. To open the file, type <em>nano
+    /etc/sudoers</em>.</p>
+</p>
+
+<p id="centos">
+<h3>Centos Systems</h3>
+Centos installation info can be <a
+        href="http://samar.techgaun.com/2013/11/install-httrack-on-centos.html">found here.</a><br/><br/>
+Once it is installed, PHP needs permission to run the service. Here are the last steps.<br/><br/>
+You can open cloner.php and change the code to something like this working sample:
+<pre class="brush: js;">
+    shell_exec('/usr/local/bin/httrack http://' . $url . '/  -O "/home/sitemakin/websites/
+        ' . $url . '"  -%v -%e0 2>&1;');</pre>
+
+After that, open up /etc/sudoers and add a line that allows the account user to run the httrack service. I am showing the line below.
+<pre class="brush: js;">
+username ALL=NOPASSWD: /usr/local/lib/httrack,/usr/local/bin/httrack</pre>
+
+Now, when you open the folder /home/username/websites/ you will see the new clone.<br/><br/>
+
+Here is a simple may to open the new cloned folder with the Linux shell:
+
+<pre class="brush: js;">cd *example.com</pre>
+
+</p>
+
+<p id="windows">
+<h3>Windows Systems</h3>
+1. Download and install httrack for windows <a
+        href="http://www.httrack.com/page/2/en/index.html">found here.</a><br/><br/>
+2. Open cloner.php and change the code to something like this working sample.
+<br/><br/>
+Change:
+<pre class="brush: js;">
+shell_exec('sudo httrack http://' . $url . '/  -O "/home/pi/' . $url . '"  -%v -%e0 2>&1;');
+    </pre>
+Change to:
+<pre class="brush: js;">
+exec('C:\Users\username\Documents\AAA\WinHTTrack\httrack.exe http://' . $url . '/  -O "C:\xampp\htdocs\CLONES\\' . $url . '"  -%v -%e0 2>&1;');</pre>
+
+<strong>Important:</strong><br/><br/>
+By default, httrack install to Program Files. That white space between 'Program' and 'Files' on Windows will cause issues. So, you can copy the entire WinHTTrack folder to a path that has no whitespace. In this case, it was copied into the Documents\AAA folder.<br/><br/>
+
+By default, you will be able to use the service now, but, it could time out when cloning a website.<br/><br/>
+
+An example of a timeout is:<br/><br/>
+Fatal error: Maximum execution time of 30 seconds exceeded
+<br/><br/>
+
+To alter the timeout setting,<br/>
+1. Open the file:<br/>
+c:\xamp\php\php.ini<br/>
+
+2. Change:<br/>
+max_execution_time=30<br/><br/>
+
+Change to:<br/>
+max_execution_time=120
+<br/>
+3. Save the file and restart Apache.
+
+<a href ="https://sitemakin.com/demo/help.php#clone-httrack-windows">See setup, cloning and quick usage in action.</a>
+
+</p>
+<hr>
+
+<h3 id="faq"><strong>I) FAQ</strong> - <a href="#toc">top</a></h3>
+
+<p>
+<ol>
+    <li>New pages are not being made or do not show up in the browser.<br/><br/>
+        Most Cpanel and Web Hosting accounts will allow the generation for new pages with Sitemakin and Cloner. On
+        Debian based home servers like Ubuntu, Linux Mint and Raspbian, and Virtual machines like Virtualbox, you
+        must have the user belonging to the www-data group and you must permit the users of that group to be able to
+        do this. The Linux commands are shown below. <br/><br/>a) Make sure all files have proper ownership. In the
+        example, the user is username. But, you would obviously use the appropriate user for your files.
+        <pre class="brush: js;">sudo chown -R username:www-data /var/www/sitemakin</pre>
+        b) Add user to group. The username will be yours.
+        <pre class="brush: js;">sudo useradd -g www-data username</pre>
+        c) Allow all group members to be able to write.<br/><pre class="brush: js;">
+            sudo chmod -R g+rw /var/www/sitemakin
+        </pre>
+    </li>
+</ol>
+</p>
+
+
+<p>The tutorial on the <a href="../help.php#blogify">help.php page</a> will show how you can manage your cms and
+    clone!</p>
+<hr>
+
+<h3 id="credits"><strong>J) Credits</strong> - <a href="#toc">top</a></h3>
+
+<p>I've used the following images, icons or other files as listed.
+
+<ul>
+    <li>Kent Elchuk</li>
+    <li>Template by HTML5.net</li>
+</ul>
+
+<hr>
+
+<p>Once again, thank you so much for purchasing this PHP script. As I said at the beginning, I'd be glad to help you
+    if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a
+    more general question relating to the PHP script on ThemeForest, you might consider visiting the forums and
+    asking your question in the "Item Discussion" section.</p>
+
+<p class="append-bottom alt large"><strong>Kent Elchuk</strong></p>
+
+<p><a href="#toc">Go To Table of Contents</a></p>
+
+<hr class="space">
+</div>
+<!-- end div .container -->
+</body>
+</html>

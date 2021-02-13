@@ -1,0 +1,992 @@
+.noner {
+    display: none;
+}
+
+.get {
+    margin-bottom: 0px;
+}
+
+.entries {
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+.add {
+    width: 100%;
+}
+
+.blog-footer {
+    margin-bottom: 5px;
+}
+
+.blog-footer-second {
+    margin-bottom: 5px;
+}
+
+.blog-my {
+    margin: 10px;
+    float: right;
+}
+
+.blog-my-block {
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-my-first {
+    float: left;
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+.blog-my-second {
+    background: #2f2f2f;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+}
+
+.blog-my-third {
+    background: #494848;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.blog-my-fourth {
+    height: auto;
+    display: block;
+    margin-left: 90px;
+}
+
+.blog-my-sixth {
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-my-seventh {
+    float: left;
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+.blog-my-eighth {
+    background: #2f2f2f;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+}
+
+.blog-my-ninth {
+    background: #494848;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.blog-my-tenth {
+    height: auto;
+    display: block;
+    margin-left: 90px;
+}
+
+.blog-my-eleventh {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.blog-my-twelvth {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.blog-update-first {
+    width: 100%;
+}
+
+.blog-update-form {
+    padding: 10px;
+}
+
+.index-first {
+    margin: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.index-second {
+    float: left;
+    width: 200px !important;
+    height: 50px;
+    margin-left: 7px;
+}
+
+.index-third {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-left: 7px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.index-fourth {
+    float: left;
+    margin-top: 0px;
+    margin-left: 7px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.index-blogifier {
+    float: left;
+    width: 300px !important;
+    height: 50px;
+    margin-left: 7px;
+}
+
+.login-first {
+    color: white;
+    border-radius: 10px;
+}
+
+.login-second {
+    margin-top: 10px;
+    width: 40% !important
+}
+
+.login-third {
+    margin-top: 20px;
+}
+
+.login-fourth {
+    margin-top: 10px;
+    color: red !important
+}
+
+.settings-first {
+    color: red;
+    font-size: 12px;
+}
+
+.settings-login {
+    color: white;
+    border-radius: 10px;
+}
+
+.else-first {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+
+.else-second {
+    font-size: 18px;
+}
+
+.else-third {
+    margin-top: 10px;
+}
+
+.else-fourth {
+    padding-bottom: 10px;
+}
+
+.else-fifth {
+    float: left;
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+.else-sixth {
+    background: #2f2f2f;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+}
+
+.else-seventh {
+    background: #494848;
+    width: 70px;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+.else-eighth {
+    color: white;
+}
+
+.else-ninth {
+    height: auto;
+    display: block;
+    margin-left: 90px;
+}
+
+.else-tenth {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.else-eleventh {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.get-first {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pagination-first {
+    width: 100%;
+    text-align: center
+}
+
+.pagination-second {
+    font-size: 13px;
+    padding: 0px 10px;
+    margin: 5px;
+    border: 1px solid #252525;
+}
+
+.pagination-third {
+    font-size: 13px;
+    padding: 0px 10px;
+    margin: 5px;
+    border: 1px solid #252525;
+}
+
+.pagination-fourth {
+    font-size: 13px;
+}
+
+.categories-login {
+    color: white;
+    border-radius: 10px;
+}
+
+.settings-submit {
+    margin-top: 20px;
+}
+
+.my-clear {
+    clear: both;
+}
+
+.my-full-width {
+    width: 100%
+}
+
+.help-one {
+    display: inline-block;
+    width: 100%;
+    padding: 5%;
+}
+
+.help-two {
+    width: 80%;
+    float: left
+}
+
+.help-three {
+    float: left;
+    width: 20%
+}
+
+.help-sef-urls {
+    margin-top: 20px;
+    width: 95%
+}
+
+.help-h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #52575c;
+}
+
+.help-list-style {
+    list-style-type: circle;
+}
+
+article.paddit {
+    margin-bottom: 10px !important;
+    border-radius: 15px;
+}
+
+.mycodeblocks {
+    font-family: Monaco, Verdana, Sans-serif;
+    font-size: 12px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(208, 208, 208);
+    color: rgb(0, 33, 102);
+    display: block;
+    margin: 14px 0pt;
+    padding: 12px 10px;
+}
+
+.nineu {
+    width: 100%;
+}
+
+td {
+    vertical-align: top;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+.mytd {
+    font-size: 11px;
+    line-height: normal
+}
+
+.addfiles {
+    width: 100% !important;
+    height: 100px
+}
+
+.addfiles-textarea {
+    width: 100% !important;
+    height: 400px
+}
+
+.addfiles-td {
+    padding: 10px;
+    text-align: left;
+}
+
+table.dload-table td {
+    font-size: 14px !important;
+    text-align: center;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+}
+
+.pix-fourteen {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+}
+
+.password-update {
+    width: 20%;
+    float: left;
+    padding-right: 10px !important;
+}
+
+.no-lines {
+    border-bottom: none;
+}
+
+/* ADD FILES */
+.add-1 {
+    color: red;
+    font-size: 12px;
+}
+
+.add-2 {
+    width: 100%
+}
+
+/* download_specs.php */
+.dload-specs1 {
+    color: #36624C;
+}
+
+/* downloads.php */
+.dloads-1 {
+    margin-top: 10px;
+}
+
+.dloads-2 {
+    color: #FF7214;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.dloads-3 {
+    display: inline-block;
+    width: 100%;
+    color: #F9E7E0;
+}
+
+.dloads-4 {
+    float: left;
+    width: 50%;
+}
+
+.dloads-5 {
+    font-family: arial;
+    font-size: 12px;
+    color: #F9E7E0;
+}
+
+.dloads-6 {
+    width: 90%;
+    min-height: 75px;
+    height: 100%;
+}
+
+.dloads-7 {
+    width: 100%;
+}
+
+.dloads-8 {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.dloads-10 {
+    width: 10%;
+    margin-left: 15px;
+}
+
+.dloads-clear {
+    clear: both;
+}
+
+.dloads-11 {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+    background-color: #fff;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.dloads-12 {
+    float: left;
+    width: 20%;
+    color: #F67B8F;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.dloads-13 {
+    float: left;
+    display: inline-block;
+    width: 100%
+}
+
+.dloads-14 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    width: 20%;
+    float: left;
+}
+
+.dloads-15 {
+    color: #715A5C
+}
+
+.dloads-16 {
+    color: #dc4000;
+}
+
+.dloads-17 {
+    border: none;
+}
+
+.dloads-18 {
+    font-size: 12px;
+    color: #DFD849;
+}
+
+.dloads-19 {
+    text-align: center;
+    background-color: #F9E7E0;
+    padding: 5px;
+}
+
+.dloads-20 {
+    font-size: 12px;
+}
+
+.dloads-21 {
+    float: left;
+    padding-left: 20px;
+}
+
+.dloads-22 {
+    width: 90%;
+    min-height: 75px;
+    height: 100%;
+}
+
+.dloads-23 {
+    margin-top: 30px;
+    float: left
+}
+
+.dloads-24 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    margin-left: 15px;
+    color: #715A5C;
+}
+
+.dloads-25 {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+    background-color: #fff;
+    margin-left: 0;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.dloads-26 {
+    float;
+    left;
+    width;
+    20%;
+    color: #F67B8F;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.dloads-27 {
+    float: left;
+    display: inline-block;
+    width: 100%
+}
+
+.dloads-28 {
+    width: 20%;
+    float: left;
+}
+
+.dloads-29 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    color: #715A5C;
+}
+
+.dloads-30 {
+    text-align: center;
+    background-color: #F9E7E0;
+    padding: 5px;
+}
+
+.dloads-31 {
+    font-size: 12px;
+}
+
+.dloads-32 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    width: 20%;
+    float: left;
+}
+
+.dloads-33 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    width: 20%;
+    float: left;
+}
+
+.dloads-34 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    color: #715A5C
+}
+
+/*downloads_admin.php*/
+.dloads-35 {
+    display: block;
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+    width: 200px;
+}
+
+.dloads-36 {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    color: #F29C9A;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+.dloads-37 {
+    margin-top: 0px;
+    width: 100%
+}
+
+.dloads-38 {
+    display: block;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.dloads-39 {
+    float: left;
+}
+
+.dloads-40 {
+    margin-top: 10px;
+    width: 100%
+}
+
+.dloads-41 {
+    display: block;
+    margin-top: 20px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 300px;
+}
+
+.dloads-42 {
+    margin-top: 10px;
+    width: 100%
+}
+
+.dloads-43 {
+    display: block;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.dloads-44 {
+    margin-top: 10px;
+    width: 100%
+}
+
+.dloads-45 {
+    height: 100%;
+    margin-top: 0px;
+}
+
+.dloads-46 {
+    color: #FF7214;
+    display: none;
+}
+
+.dloads-47 {
+    margin-top: 10px;
+}
+
+.dloads-48 {
+    text-align: center;
+}
+
+.dloads-49 {
+    font-size: 13px;
+}
+
+.dloads-50 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    width: 20%;
+    float: left;
+}
+
+.dloads-51 {
+    font-size: 14px !important;
+    text-align: left;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+    1px dotted #62676c !important;
+    padding-left: 5px;
+    display: inline-block;
+    width: 100%;
+    color: #F9E7E0;
+}
+
+.dloads-52 {
+    float: left;
+    margin-top: 0px;
+    width: 100%
+}
+
+.dloads-admin * {
+    font-size: 12px !important;
+}
+
+.dloads-admin td {
+    text-align: center;
+    vertical-align: middle !important;
+    padding-top: 10px !important;
+}
+
+.dloads-admin a {
+    1px dotted #62676c !important;
+}
+
+/*login.php*/
+.login-1 {
+    width: 25%;
+}
+
+.login-2 {
+    display: inline-block;
+    width: 100%;
+}
+
+.login-3 {
+    float: left;
+    width: 17%;
+}
+
+.login-4 {
+    width: 100%;
+}
+
+.login-5 {
+    float: left;
+    margin-left: 3%;
+    width: 80%
+}
+
+.login-6 {
+    display: none;
+    width: 100%;
+}
+
+.login-7 {
+    color: #F98093;
+}
+
+.login-8 {
+    width: 25%;
+    display: none;
+}
+
+.login-9 {
+    color: #2f2f2f;
+    font-style: italic;
+    padding: 10px;
+    background: none;
+}
+
+/*edit.php*/
+.edit-1 {
+    color: red;
+    font-size: 12px;
+}
+
+.edit-2 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.edit-3 {
+    float: left;
+    width: 150px;
+}
+
+.edit-4 {
+    float: left;
+    width: 80px;
+}
+
+.edit-5 {
+    border-bottom: none;
+    color: red;
+}
+
+.edit-6 {
+    float: left;
+    width: 200px;
+}
+
+.edit-7 {
+    border-bottom: none;
+    color: orange;
+}
+
+.edit-8 {
+    border-bottom: none;
+    color: red;
+    width: 100px;
+}
+
+/*footer_update*/
+.footer-1 {
+    color: red;
+    font-size: 12px;
+}
+
+.footer-2 {
+    width: 100%
+}
+
+/*header_write.php */
+.header-write-1 {
+    margin-top: 10px;
+    text-align: center
+}
+
+.page-template-1 {
+    padding: 10px;
+}
+
+.sidebar-1 {
+    background: #E3E3E3;
+    color: white;
+    list-style-type: none;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    width: 150px;
+    height: auto;
+    font-family: helvetica;
+}
+
+.upload-css {
+    color: #36624C;
+}
+
+.upload-css-2 {
+    margin-top: 10px;
+}
+
+.upload-css-3 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.upload-css-5 {
+    display: inline-block;
+    width: 100%;
+    color: #252525;
+}
+
+.upload-css-6 {
+    float: left;
+    width: 50%;
+}
+
+.upload-css-7 {
+    font-family: arial;
+    font-size: 14px;
+    color: #252525;
+}
+
+.upload-css-8 {
+    display: inline-block;
+    width: 100%;
+    color: #252525;
+}
+
+.upload-css-9 {
+    float: left;
+    width: 50%;
+}
+
+.upload-css-10 {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.iframe-1 {
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+
+.installer {
+    width: 20%;
+    padding: 1% 10% 5% 10%;
+    display: inline-block;
+    height: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    color: #52575c;
+    line-height: 1.30em;
+    font-size: 12pt;
+}
+
+.install-form {
+    background-color: #E6AD95;
+    padding: 15px;
+    border-radius: 15px;
+    min-width: 200px;
+}
+
+.install-inputs {
+    width: 100%;
+}
+
+.install-submit {
+    background: white;
+    border: 1px solid #c2c7cc;
+    border-radius: 0.35em;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0 none;
+    padding: 0.8em 2em;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out 0s, border-color 0.25s ease-in-out 0s, background-color 0.25s ease-in-out 0s;
+}

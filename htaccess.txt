@@ -1,0 +1,31 @@
+DirectoryIndex static.php index.php index.html
+
+#Expire Header
+#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+#ExpiresDefault "access plus 2 hours"
+#</FilesMatch>
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+Options +FollowSymLinks
+#RewriteRule ^myblog/([^/]+)-([^/]+).html$ blog/blog\.php?id=$1&title=$2 [NC]
+</IfModule>
+
+<Files ~ ".inc">
+Order allow,deny
+Deny from all
+</Files>
+
+<Files ~ \"\\.(inc|sql|...other_extensions...)$\">
+  order allow,deny
+  deny from all
+</Files>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+Options -Indexes
